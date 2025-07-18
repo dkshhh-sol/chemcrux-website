@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-chemcrux-light dark:bg-chemcrux-dark text-chemcrux-dark dark:text-chemcrux-light;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
